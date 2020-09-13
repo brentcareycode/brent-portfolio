@@ -26,13 +26,13 @@ function App() {
         I would love to continue to
         <br />
        learn React professionally.
-
         </h2>
+      <img src={logo} className='App-logo' alt='react-logo' />
       {showForm ?
         <Form cancel={cancelForm} />
         :
         <div>
-          <img src={logo} className='App-logo' alt='react-logo'/>
+
           <h2
             className="hireMe"
             onClick={handleLinkClick}

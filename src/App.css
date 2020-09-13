@@ -8,7 +8,7 @@ body{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 180px;
+  padding: 15rem;
 }
 h1, h2{
   color: white;
@@ -16,6 +16,7 @@ h1, h2{
 .App-logo {
   height: 10vmin;
   pointer-events: none;
+  margin: 1em;
 }
 .brent-logo{
   border-radius: 90%;
