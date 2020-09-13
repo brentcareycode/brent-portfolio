@@ -1,18 +1,19 @@
-.NavBar {
+.Footer {
   background-color: #61DAFB;
   width: 100vw;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   color: white;
   position: fixed;
-  top: 0;
+  bottom: 0;
 }
 
-li{
+p{
 list-style: none;
 display: inline-block;
-margin: 0 1em;
-font-size: x-large;
+margin: 1em;
+font-size: large;
+
 }
 
 li:hover{

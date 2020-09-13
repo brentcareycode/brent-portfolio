@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Form from './Form';
 import NavBar from './NavBar';
+import Footer from './Footer';
 
 function App() {
   const [showForm, setShowForm] = useState(false)
@@ -33,7 +34,7 @@ function App() {
          Hire Me!
         </h2> }
        
-       
+       <Footer/>
 
     </div>
   );
