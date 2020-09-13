@@ -11,9 +11,10 @@
 }
 
 .nav-left{
-  width: 50%;
+  width: 20%;
   display: flex;
   align-items: center;
+  justify-content: space-around;
 }
 #nav-header{
   display: inline;
@@ -33,5 +34,5 @@ li:hover {
 .laptop-logo {
   height:4em;
   border-radius: 90%;
-  margin:.5em;
+  margin: 1em .5em;
 }
