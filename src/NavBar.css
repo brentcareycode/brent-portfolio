@@ -6,16 +6,17 @@
   color: white;
   position: fixed;
   top: 0;
+  z-index: 1;
 }
 
-li{
-list-style: none;
-display: inline;
-margin: 0 1em;
-font-size: x-large;
+li {
+  list-style: none;
+  display: inline;
+  margin: 0 1em;
+  font-size: x-large;
 }
 
-li:hover{
+li:hover {
   cursor: pointer;
   text-decoration: underline;
 }
