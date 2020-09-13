@@ -1,7 +1,7 @@
 import React from 'react'
 import './Form.css'
 
-const Form = () => {
+const Form = (props) => {
   return (
     <form className='Form'>
     <h2>Enter your information below!</h2>
@@ -21,6 +21,7 @@ const Form = () => {
     <br/>
     <input placeholder='Your Number' id='phone'/>
     <br/>
+    <button onclick={props.cancel} className='cancelButton'>Cancel</button>
     <button className='submitButton'>Submit</button>
     </form>
   )

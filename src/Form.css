@@ -12,7 +12,22 @@ input {
   width: 60%;
   height: 2em;
 }
+.cancelButton {
+  width: 40%;
+  height: 2em;
+  background-color: gray;
+  border: 1px solid #61DAFB;
+  font-size: large;
+  border-radius: 1em;
+  margin: 1em;
+  color: #61DAFB;
+}
 
+.cancelButton:hover{
+  background-color:#282D33;
+  cursor: pointer;
+  color: #61DAFB;
+}
 .submitButton {
   width: 40%;
   height: 2em;
@@ -24,7 +39,7 @@ input {
 }
 
 .submitButton:hover{
-  background-color: gray;
+  background-color:#0597be;
   cursor: pointer;
-  color: #61DAFB; 
+  color: white;
 }

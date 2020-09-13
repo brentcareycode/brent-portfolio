@@ -10,6 +10,10 @@ function App() {
     setShowForm(true)
   }
 
+  const cancelForm = () => {
+    setShowForm(false)
+  }
+
   return (
     <div className="App">
       <header className="App-header">
@@ -19,7 +23,7 @@ function App() {
       
         </p>
         {showForm ? 
-        <Form/> 
+        <Form cancel={cancelForm}/> 
         :
           <p
           className="App-link"
