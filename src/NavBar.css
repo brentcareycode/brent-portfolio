@@ -2,11 +2,16 @@
   background-color: #61DAFB;
   width: 100vw;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-around;
+  align-items: center;
   color: white;
   position: fixed;
   top: 0;
   z-index: 1;
+}
+
+.nav-left{
+  width: 50%;
 }
 
 li {
@@ -19,4 +24,9 @@ li {
 li:hover {
   cursor: pointer;
   text-decoration: underline;
+}
+.laptop-logo {
+  height:4em;
+  border-radius: 90%;
+  margin:.5em;
 }
