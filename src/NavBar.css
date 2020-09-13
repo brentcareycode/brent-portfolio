@@ -1,6 +1,6 @@
 .NavBar {
   background-color: #61DAFB;
-  width: 100vw;
+  width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -8,6 +8,8 @@
   position: fixed;
   top: 0;
   z-index: 1;
+  overflow: auto;
+  white-space: nowrap;
 }
 
 .nav-right {
@@ -55,6 +57,7 @@ li:hover {
 }
 .nav-link {
   color: white;
+  margin: 0;
 }
 .is-active{
   text-decoration: underline;

@@ -59,4 +59,6 @@ input {
 }
 textarea {
   margin: 1em;
+  width: 60%;
+  height: 4em;
 }
