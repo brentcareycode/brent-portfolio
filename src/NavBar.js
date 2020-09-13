@@ -25,7 +25,6 @@ const NavBar = () => {
           <li>
           <NavLink activeClassName='is-active' className='nav-link' exact to='/social'>Social</NavLink>
           </li>
-          <li>Resume</li>
           <li>About</li>
         </ul>
       </div>

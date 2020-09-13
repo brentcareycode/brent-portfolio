@@ -23,7 +23,7 @@ function Main() {
       <h2>
         I would love to continue to
         <br />
-       learn React professionally.
+       master React professionally.
         </h2>
       <img src={logo} className='App-logo' alt='react-logo' />
       {showForm ?
