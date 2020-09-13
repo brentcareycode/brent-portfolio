@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import logo from './logo.svg'
 import Form from './Form';
 import NavBar from './NavBar';
 import Footer from './Footer';
+import brentPeace from './brentPeace.png'
 
 function App() {
   const [showForm, setShowForm] = useState(false)
@@ -18,23 +19,29 @@ function App() {
 
   return (
     <div className="App">
-      <NavBar/>
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>
-        I would love to continue to learn React professionally. 
-      
-        </h1>
-        {showForm ? 
-        <Form cancel={cancelForm}/> 
+      <NavBar />
+      <h1>Hi My Name is Brent!</h1>
+      <img src={brentPeace} className="brent-logo" alt="logo" />
+      <h2>
+        I would love to continue to
+        <br />
+       learn React professionally.
+
+        </h2>
+      {showForm ?
+        <Form cancel={cancelForm} />
         :
+        <div>
+          <img src={logo} className='App-logo' alt='react-logo'/>
           <h2
-          className="hireMe"
-          onClick={handleLinkClick}
-        >
-         Hire Me!
-        </h2> }
-       
-       <Footer/>
+            className="hireMe"
+            onClick={handleLinkClick}
+          >
+            Hire Me!
+        </h2> </div>
+      }
+
+      <Footer />
 
     </div>
   );

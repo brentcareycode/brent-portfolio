@@ -1,9 +1,10 @@
 import React from 'react'
+import CloseIcon from '@material-ui/icons/Close';
 import './Form.css'
-
 const Form = (props) => {
   return (
     <form className='Form'>
+    <CloseIcon onClick={props.cancel} className='close-icon' fontSize='large'/>
     <h2>Enter your information below!</h2>
     <label htmlFor='company'>Company Name:</label>
     <br/>
@@ -21,7 +22,7 @@ const Form = (props) => {
     <br/>
     <input placeholder='Your Number' id='phone'/>
     <br/>
-    <button onclick={props.cancel} className='cancelButton'>Cancel</button>
+    <button onClick={props.cancel} className='cancelButton'>Cancel</button>
     <button className='submitButton'>Submit</button>
     </form>
   )

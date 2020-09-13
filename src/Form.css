@@ -8,6 +8,9 @@
   width: 70vw;
   margin-bottom: 10em;
 }
+.Form h2{
+  color: #61DAFB
+}
 
 input {
   margin: 1em;
@@ -44,4 +47,13 @@ input {
   background-color:#0597be;
   cursor: pointer;
   color: white;
+}
+.close-icon {
+  float: right;
+  border-radius: 90%;
+}
+.close-icon:hover{
+  cursor: pointer;
+  background-color:#282F32;
+  
 }
