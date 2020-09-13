@@ -1,0 +1,30 @@
+.Form {
+  background-color: aliceblue;
+  color: #61DAFB;
+  text-align: left;
+  padding: 1em;
+  border-radius: 1em;
+  margin-bottom: 4em;
+}
+
+input {
+  margin: 1em;
+  width: 60%;
+  height: 2em;
+}
+
+.submitButton {
+  width: 40%;
+  height: 2em;
+  background-color: #61DAFB;
+  border: 1px solid #61DAFB;
+  font-size: large;
+  border-radius: 1em;
+  margin: 1em;
+}
+
+.submitButton:hover{
+  background-color: gray;
+  cursor: pointer;
+  color: #61DAFB; 
+}
