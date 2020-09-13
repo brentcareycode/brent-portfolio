@@ -1,0 +1,33 @@
+.Social-Bar {
+  width: 50vw;
+  padding: .5em;
+  border-radius: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 1em;
+}
+
+a {
+  display: inline;
+  margin: .5em;
+  font-size: x-large;
+  text-decoration: none;
+  color: #057bab;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+.twitter {
+  background: linear-gradient(to right,white, #07ABED);
+}
+.github {
+  background: linear-gradient(to right,white, #3D82C6);
+}
+.linkedin {
+  background: linear-gradient(to right,white, #057FB1);
+}
+.medium {
+  background: linear-gradient(to right,white, #30302F);
+}
