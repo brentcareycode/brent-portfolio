@@ -22,6 +22,10 @@ const Form = (props) => {
     <br/>
     <input placeholder='Your Number' id='phone'/>
     <br/>
+    <label htmlFor='message'>Your Message:</label>
+    <br/>
+    <textarea placeholder='Type your message here' id='message' type='textarea' cols='50'/>
+    <br/>
     <button onClick={props.cancel} className='cancelButton'>Cancel</button>
     <button className='submitButton'>Submit</button>
     </form>

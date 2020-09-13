@@ -30,7 +30,6 @@ function Main() {
         <Form cancel={cancelForm} />
         :
         <div>
-
           <h2
             className="hireMe"
             onClick={handleLinkClick}

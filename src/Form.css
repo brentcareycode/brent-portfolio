@@ -57,3 +57,6 @@ input {
   background-color:#282F32;
   
 }
+textarea {
+  margin: 1em;
+}
