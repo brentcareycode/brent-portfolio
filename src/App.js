@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Form from './Form';
+import NavBar from './NavBar';
 
 function App() {
   const [showForm, setShowForm] = useState(false)
@@ -16,24 +17,24 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
+      <NavBar/>
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
+        <h1>
         I would love to continue to learn React professionally. 
       
-        </p>
+        </h1>
         {showForm ? 
         <Form cancel={cancelForm}/> 
         :
-          <p
-          className="App-link"
+          <h2
+          className="hireMe"
           onClick={handleLinkClick}
         >
-         Hire Me
-        </p> }
+         Hire Me!
+        </h2> }
        
        
-      </header>
+
     </div>
   );
 }

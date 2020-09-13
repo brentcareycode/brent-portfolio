@@ -1,0 +1,19 @@
+.NavBar {
+  background-color: #61DAFB;
+  width: 100vw;
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+}
+
+li{
+list-style: none;
+display: inline-block;
+margin: 0 1em;
+font-size: x-large;
+}
+
+li:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
